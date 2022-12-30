@@ -24,6 +24,7 @@ dependencies:
   widgetbook: ^2.4.1
   flutter_heros:
     path: ../
+  google_fonts: ^3.0.1
 
 dev_dependencies:
   flutter_test:
