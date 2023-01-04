@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_heros/flutter_heros.dart';
 import 'package:widgetbook/widgetbook.dart';
 
 void main() {
@@ -18,15 +17,7 @@ class HotreloadWidgetbook extends StatelessWidget {
           widgets: [
             WidgetbookComponent(
               name: 'Hello World',
-              useCases: [
-                WidgetbookUseCase(
-                  name: 'default',
-                  builder: (context) => ExampleWidget(
-                    text: context.knobs.nullableText(
-                        label: 'Text', initialValue: 'Hello World'),
-                  ),
-                ),
-              ],
+              useCases: [],
             ),
           ],
         )
